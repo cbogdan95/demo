@@ -76,7 +76,7 @@ public class Student {
 	
 	@Override
 	public String toString() {
-		return "Student" + this.firstName;
+		return "Student" + this.firstName + " ";
 	}
 	
 }
