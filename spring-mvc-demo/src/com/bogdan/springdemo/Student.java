@@ -74,6 +74,9 @@ public class Student {
 		this.operatingSystems = operatingSystems;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Student" + this.firstName;
+	}
 	
 }
