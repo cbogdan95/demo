@@ -27,6 +27,24 @@
 		
 		<br><br>
 		
+		Free Pass:
+		<form:input path="freePass"/>
+		<form:errors path="freePass" class="error" />
+		
+		<br><br>
+		
+		Zip Code:
+		<form:input path="zipCode" />
+		<form:errors path="zipCode" class="error" />
+		
+		<br><br>
+		
+		Course Code:
+		<form:input path="courseCode" />
+		<form:errors path="courseCode" class="error" />
+		
+		<br><br>
+		
 		<input type="submit" name="Submit"/>
 	</form:form>
 

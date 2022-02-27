@@ -8,4 +8,16 @@
 
 <body>
 	Customer ${customer.firstName} ${customer.lastName} is confirmed!
+	
+	<br><br>
+	
+	Has ${customer.freePass}
+	
+	<br><br>
+	
+	Zip code ${customer.zipCode}
+	
+	<br><br>
+	
+	Couse code ${customer.courseCode}
 </body>
